@@ -39,4 +39,4 @@ jobs:
         with:
           context: simple-spring-boot-rest-api
           push: true
-          tags: <alifawaz1>/my-spring-boot-app:${{ env.DATE }}
+          tags: alifawaz1/my-spring-boot-app:${{ env.DATE }}
