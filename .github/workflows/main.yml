@@ -28,8 +28,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3.0.0
         with:
-          username: ${{alifawaz1}}
-          password: ${{dckr_pat_M8DTD65dbUad1A86IE91ZfzN2p0}}
+          username: ${{secrets.alifawaz1}}
+          password: ${{secrets.dckr_pat_vK8UUUNou91S0IwMczpgY3Veo8o}}
 
       - name: Set env
         run: echo "DATE=$(date +%s)" >> $GITHUB_ENV
